@@ -75,6 +75,7 @@ func apply_acceleration(amount):
 extents = Vector2( 6, 8.5 )
 
 [node name="Player" type="KinematicBody2D"]
+collision_layer = 2
 script = SubResource( 8 )
 JUMP_FORCE = -165
 JUMP_RELEASE_FORCE = -40
